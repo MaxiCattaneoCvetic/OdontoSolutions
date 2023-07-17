@@ -3,14 +3,14 @@ import { useContext, useEffect, useState } from "react";
 import style from "../card/doctorCard.module.css";
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../context/Context";
-import {doc1} from "../../doctorImages/dman1.webp"
+import img1 from './dman1.webp'
 
 
 
 const DOCTOR_FAVORITE = "doctorFavorites";
 export const arrayDoctor = [
   "",
-  doc1,
+  img1,
   "src\\doctorImages\\dman2.avif",
   "src\\doctorImages\\dman3.jpeg",
   "src\\doctorImages\\dman4.jpg",
