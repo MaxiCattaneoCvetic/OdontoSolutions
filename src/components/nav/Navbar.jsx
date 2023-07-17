@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <header className={`${style[theme]}`} >
       <div>
-        <img src="src/components/doctorImages/dientes.png" alt="logo" />
+        <img src="/src/components/doctorImages/dientes.png" alt="logo" />
       </div>
       <nav>
         <li className={style}>
