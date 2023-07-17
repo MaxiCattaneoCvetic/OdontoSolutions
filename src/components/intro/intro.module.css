@@ -1,0 +1,59 @@
+.introContainer{
+	margin-left: 4rem;
+	background-color: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.solutions{
+	color: #12865a;
+}
+
+.introH2{
+	margin-left: 10rem;
+	color:#12296f85 
+
+}
+h1{
+	color: rgba(255, 255, 255, 0.87);
+}
+
+.dark {
+	color: white
+}
+
+.light {
+	color: black;
+	background-color: #e7e7e7e5;	;
+}
+
+.sloganContainer{
+	border-radius: 41px 233px 269px 245px;
+	background-color: rgb(139, 184, 143);
+	border: 1px solid blargb(139, 184, 143);
+	padding: 3%;
+
+}
+
+
+@media (max-width: 700px) {
+	.sloganContainer{
+		width: 70%;
+    font-size: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 20px 95px 104px 341px;
+	}
+	.introH2{
+		margin-left: 6rem;
+    text-align: center;
+
+}
+h1{
+	margin-left: 2rem;
+	
+}
+	}
+
+

@@ -1,0 +1,90 @@
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	background: rgba(21, 92, 4, 0.767);
+	
+
+}
+
+header img{
+	width: 60px;
+	
+}
+
+header button{
+	width: 100%;
+}
+li{
+	list-style: none;
+	text-decoration: none;
+	font-size: 1.6rem;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.houseIcon{
+	font-size: 68%;
+}
+
+nav{
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	
+}
+
+.labelm{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bolder;
+	color: white;
+}
+
+
+.swithContainer{
+	display: flex;
+	gap: 1rem;
+
+}
+@media (max-width: 600px) {
+  a{
+		font-size: 0.8rem;
+	}
+	nav{
+		gap: 0.5rem;
+	}
+}
+
+.dark a {
+	color: white;
+}
+.dark a:hover{
+	color: rgb(64, 64, 233);
+}
+
+
+.dark .hd{
+	background-color: #7272a8;
+}
+html .light{
+	background-color: #0c6643;
+}
+
+.light a {
+	color: #e7e7e7e5;
+}
+
+.light a:hover{
+	color: rgb(23, 182, 84);
+}
+

@@ -1,0 +1,75 @@
+.formulario{
+	font-size: 2rem;
+	margin-top: 13%;
+	margin-left: 29%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	gap: 1rem;
+	padding: 3rem;
+	border-radius: 47px 63px 70px 63px;
+	box-shadow: 11px 4px 41px -3px #337747;
+	width: 40%;
+	background-color: rgb(131, 189, 155);
+}
+
+
+.error{
+	font-size: 1.3rem;
+	color: rgb(131, 44, 44);
+	font-weight: bolder;
+
+}
+.submitBTN{
+	width: 10%;
+}
+.formContainer{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+/* background of form*/
+input{
+	width: auto;
+	font-size: 1.2rem ;
+	background:none;
+	border: none; 
+}
+
+::placeholder{
+	background-color: rgb(131, 189, 155) ;
+	border-radius: none ;
+	color: rgb(237, 243, 238) ;
+
+}
+::placeholder.dark{
+	display: none;
+}
+
+
+/* background*/
+.bodyContact{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: #e7e7e7e5;
+}
+
+/*     insert your information*/
+h1{
+color:rgb(48, 122, 73)
+}
+
+input{
+	background: rgba(183, 199, 190, 0.87);
+}
+
+section.bodyContact.dark{
+	background: #242424;
+}
+
+.dark{
+	color: rgb(48, 122, 73);
+}
