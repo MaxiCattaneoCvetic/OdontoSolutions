@@ -10,16 +10,16 @@ import { ThemeContext } from "../context/Context";
 const DOCTOR_FAVORITE = "doctorFavorites";
 export const arrayDoctor = [
   "",
-  "src/doctorImages/dman1.webp",
-  "src/doctorImages/dman2.avif",
-  "src/doctorImages/dman3.jpeg",
-  "src/doctorImages/dman4.jpg",
-  "src/doctorImages/dman5.jpg",
-  "src/doctorImages/dman6.jpg",
-  "src/doctorImages/dman7.jpg",
-  "src/doctorImages/dwoman1.jpg",
-  "src/doctorImages/dwoman2.jpg",
-  "src/doctorImages/dwoman3.jpg",
+  "src/components/doctorImages/dman1.webp",
+  "src/components/doctorImages/dman2.avif",
+  "src/components/doctorImages/dman3.jpeg",
+  "src/components/doctorImages/dman4.jpg",
+  "src/components/doctorImages/dman5.jpg",
+  "src/components/doctorImages/dman6.jpg",
+  "src/components/doctorImages/dman7.jpg",
+  "src/components/doctorImages/dwoman1.jpg",
+  "src/components/doctorImages/dwoman2.jpg",
+  "src/components/doctorImages/dwoman3.jpg",
 ];
 
 function DoctorCard() {

@@ -28,7 +28,7 @@ function Intro () {
 		<h1>OralHealth <span className={style.solutions}>Solutions</span></h1>
 		<h2 className={style.introH2} > "Your dental well-being in expert hands"</h2>
 		</div>
-		<img className={style.imgDoctor} src="src/doctorImages/introDoc.png" alt="" />
+		<img className={style.imgDoctor} src="src/components/doctorImages/introDoc.png" alt="" />
 		</div>
 
 		<DoctorCard>
