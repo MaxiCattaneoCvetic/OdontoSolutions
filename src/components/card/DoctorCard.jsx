@@ -3,23 +3,23 @@ import { useContext, useEffect, useState } from "react";
 import style from "../card/doctorCard.module.css";
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../context/Context";
-import img1 from './dman1.webp'
+
 
 
 
 const DOCTOR_FAVORITE = "doctorFavorites";
 export const arrayDoctor = [
   "",
-  img1,
-  "src\\doctorImages\\dman2.avif",
-  "src\\doctorImages\\dman3.jpeg",
-  "src\\doctorImages\\dman4.jpg",
-  "src\\doctorImages\\dman5.jpg",
-  "src\\doctorImages\\dman6.jpg",
-  "src\\doctorImages\\dman7.jpg",
-  "src\\doctorImages\\dwoman1.jpg",
-  "src\\doctorImages\\dwoman2.jpg",
-  "src\\doctorImages\\dwoman3.jpg",
+  "src/doctorImages/dman1.webp",
+  "src/doctorImages/dman2.avif",
+  "src/doctorImages/dman3.jpeg",
+  "src/doctorImages/dman4.jpg",
+  "src/doctorImages/dman5.jpg",
+  "src/doctorImages/dman6.jpg",
+  "src/doctorImages/dman7.jpg",
+  "src/doctorImages/dwoman1.jpg",
+  "src/doctorImages/dwoman2.jpg",
+  "src/doctorImages/dwoman3.jpg",
 ];
 
 function DoctorCard() {
