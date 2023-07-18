@@ -3,6 +3,21 @@ import { useContext, useEffect, useState } from "react";
 import style from "../card/doctorCard.module.css";
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../context/Context";
+import d1 from '../doctorImages/dman1.webp'
+import d2 from '../doctorImages/dman2.avif'
+import d3 from '../doctorImages/dman3.jpeg'
+import d4 from '../doctorImages/dman4.jpg'
+import d5 from '../doctorImages/dman5.jpg'
+import d6 from '../doctorImages/dman6.jpg'
+import d7 from '../doctorImages/dman7.jpg'
+import d8 from '../doctorImages/dwoman1.jpg'
+import d9 from '../doctorImages/dwoman2.jpg'
+import d10 from '../doctorImages/dwoman3.jpg'
+
+
+
+
+
 
 
 
@@ -10,16 +25,7 @@ import { ThemeContext } from "../context/Context";
 const DOCTOR_FAVORITE = "doctorFavorites";
 export const arrayDoctor = [
   "",
-  "./src/components/doctorImages/dman1.webp",
-  "./src/components/doctorImages/dman2.avif",
-  "./src/components/doctorImages/dman3.jpeg",
-  "./src/components/doctorImages/dman4.jpg",
-  "./src/components/doctorImages/dman5.jpg",
-  "./src/components/doctorImages/dman6.jpg",
-  "./src/components/doctorImages/dman7.jpg",
-  "./src/components/doctorImages/dwoman1.jpg",
-  "./src/components/doctorImages/dwoman2.jpg",
-  "./src/components/doctorImages/dwoman3.jpg",
+  d1,d2,d3,d4,d5,d6,d7,d8,d9,d10
 ];
 
 function DoctorCard() {

@@ -5,6 +5,7 @@ import { useContext, useState } from 'react';
 import {ThemeContext} from "../context/Context"
 import { faUser, faEnvelope, faPhone, faGlobe,faHouse } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import iconNav from '../doctorImages/dientes.png'
 
 
 function Navbar() {
@@ -22,7 +23,7 @@ function Navbar() {
   return (
     <header className={`${style[theme]}`} >
       <div>
-        <img src="/src/components/doctorImages/dientes.png" alt="logo" />
+        <img src={iconNav} alt="logo" />
       </div>
       <nav>
         <li className={style}>
