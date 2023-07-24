@@ -56,4 +56,22 @@ h1{
 }
 	}
 
+	
+	@media (min-width: 300px) and (max-width: 500px) {
+		.introH2{
+			margin-left: 3rem;
+		}
+		.introContainer{
+			margin-left: 1rem;
+			
+		}
+		.imgDoctor{
+			position: relative;
+			right: 2rem;
+			width: 12rem;
+		}
+		
+		}
+	
+
 

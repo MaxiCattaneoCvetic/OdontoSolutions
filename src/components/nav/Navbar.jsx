@@ -26,7 +26,7 @@ function Navbar() {
         <img src={iconNav} alt="logo" />
       </div>
       <nav>
-        <li className={style}>
+        <li className={style.home}>
           <Link to="/"><FontAwesomeIcon icon={faHouse} className={style.houseIcon}/> Home</Link>
         </li>
         <li>
@@ -38,7 +38,7 @@ function Navbar() {
       </nav>
 
       <div className={style.swithContainer}>
-        <ReactSwitch  checked={checked} onChange={handleChange} /> 
+        <ReactSwitch  checked={checked} onChange={handleChange} className={style.swith} /> 
         {checked ? <label className={`${style.labelm} ${style[theme]}`}>Dark Mode</label>:<label className={`${style.labelm} ${style[theme]}`}>Light Mode</label>}
       </div>
     </header>

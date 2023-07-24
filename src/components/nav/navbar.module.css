@@ -88,3 +88,21 @@ html .light{
 	color: rgb(23, 182, 84);
 }
 
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+	header img{
+		width: 3rem;
+	}
+	nav{
+		font-weight: 0.8rem;
+		gap:0rem;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.labelm{
+		display: none;
+	}
+	
+	}

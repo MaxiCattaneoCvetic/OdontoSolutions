@@ -43,3 +43,18 @@ strong{
 		gap: 0.5rem;
 	}
 }
+
+	@media (min-width: 300px) and (max-width: 500px) {
+		.divNotFav{
+			position: absolute;
+			display: flex;
+			flex-direction: column;
+			gap: 2rem;
+
+		
+
+		}
+
+
+		}
+	

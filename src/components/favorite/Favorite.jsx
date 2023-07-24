@@ -4,6 +4,7 @@ import style from "../card/doctorCard.module.css";
 import Navbar from "../nav/Navbar";
 import styles from "../favorite/favorite.module.css"
 import { ThemeContext } from "../context/Context";
+import imgNOTfav from '../doctorImages/headhunting.png'
 
 function Favorite() {
   const valor = useContext(ThemeContext)
@@ -54,8 +55,8 @@ function Favorite() {
         </div>
       ) : (
         <div className={styles.divNotFav}>
-          <img className={styles.imgNotFav} src="src\doctorImages\headhunting.png" alt="" />
-          <strong style={styles}>It seems like you still don't have a favorite doctor</strong>
+          <img className={styles.imgNotFav} src={imgNOTfav} alt="" />
+          <strong style={styles}>It seems like you still don't<br></br> have a favorite doctor</strong>
         </div>
       )}
 </section>

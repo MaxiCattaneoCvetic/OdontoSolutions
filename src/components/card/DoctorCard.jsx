@@ -103,6 +103,7 @@ function DoctorCard() {
                 <p>
                   <strong className={style.cardText} >UserName:</strong><span > {doc.username}</span> 
                 </p>
+                <div className={style.buttonContainer}>
                 {isFavorite(doc.id) ? (
                   <button   onClick={() => deleteFavorite(doc.id)}>
                     Delete favorite
@@ -111,6 +112,7 @@ function DoctorCard() {
                   <button   onClick={() => addFavorite(doc.id)}>Add favorite</button>
                 )}
                 <Link to={`${doc.id}`}  ><button  >More Info + </button></Link>
+                </div>
               </div>
             );
           })}
