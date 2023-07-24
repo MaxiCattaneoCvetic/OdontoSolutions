@@ -22,7 +22,6 @@ strong{
 
 .bodyFavorite{
 	background:rgb(214, 214, 190);
-	position: absolute;
 	width: 100%;
 	height: 100%;
 }
@@ -50,9 +49,9 @@ strong{
 			display: flex;
 			flex-direction: column;
 			gap: 2rem;
-
-		
-
+		}
+		.bodyFavorite{
+			height: 100%;
 		}
 
 

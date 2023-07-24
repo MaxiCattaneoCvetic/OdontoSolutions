@@ -49,8 +49,8 @@ button{
 
 	@media (min-width: 300px) and (max-width: 500px) {
 		.card{
-			font-size: 14px;
-			width: 16rem;
+			font-size: 13px;
+			width: 18rem;
 			height: 23rem;
 			gap: 0rem;
 			padding: 0rem;

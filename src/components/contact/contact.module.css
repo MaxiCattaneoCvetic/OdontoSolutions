@@ -91,4 +91,7 @@ section.bodyContact.dark{
 		.error{
 			font-size: 1rem;
 		}
+		.bodyContact{
+			height: 100%;
+		}
 	}
