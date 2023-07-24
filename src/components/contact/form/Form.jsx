@@ -111,9 +111,11 @@ function Form() {
             />
           </label>
           {error2 && <p className={style.error}>{error2}</p>}
-          <button type="submit" className={style.submitBTN}>
+          <div className={style.submitBTN}>
+          <button type="submit" >
             Send
           </button>
+          </div>
         </form>
       </section>
       {validatorMsj ?<div> <h2>Thanks you, {validatorMsj}

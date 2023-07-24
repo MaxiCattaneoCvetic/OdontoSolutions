@@ -30,6 +30,7 @@ function Favorite() {
   return (
     <>
       <Navbar />
+      <body>
       <section className={ `${styles.bodyFavorite} ${styles[theme]}`}  >
       {data.length > 0  ? (
         <div className={style.cardContainer}>
@@ -60,6 +61,9 @@ function Favorite() {
         </div>
       )}
 </section>
+        
+      </body>
+
     </>
   );
       }

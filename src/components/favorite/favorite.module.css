@@ -19,7 +19,9 @@ strong{
 	top:100px
 }
 
-
+body{
+	height: 100rem;
+}
 .bodyFavorite{
 	background:rgb(214, 214, 190);
 	width: 100%;
@@ -32,6 +34,7 @@ strong{
 	width: 100%;
 	height: 100%;
 }
+
 
 
 @media (max-width: 600px) {
@@ -50,9 +53,7 @@ strong{
 			flex-direction: column;
 			gap: 2rem;
 		}
-		.bodyFavorite{
-			height: 100%;
-		}
+		
 
 
 		}
