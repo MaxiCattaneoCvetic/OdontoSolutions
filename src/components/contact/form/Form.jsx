@@ -74,7 +74,7 @@ function Form() {
     if(validateObject.name && validateObject.email){
       formRef.current.reset()
       setTimeout(() => {
-        setValidatorMsj("Los datos fueron enviados correctamente..")
+        setValidatorMsj("your information has been sent.")
         
       }, 500)
       resetForm()
@@ -90,7 +90,7 @@ function Form() {
       <section className={style.formContainer}>
         <form className={style.formulario} ref={formRef} onSubmit={validate}>
           <label htmlFor="name">
-            Full Name:
+            Name:
             <input
               type="text"
               id="name"

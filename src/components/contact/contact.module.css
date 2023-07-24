@@ -19,7 +19,6 @@
 	font-size: 1.3rem;
 	color: rgb(131, 44, 44);
 	font-weight: bolder;
-
 }
 .submitBTN{
 	width: 10%;
@@ -73,3 +72,23 @@ section.bodyContact.dark{
 .dark{
 	color: rgb(48, 122, 73);
 }
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+	.submitBTN{
+		width: auto;
+	}
+	input{
+		width: 13rem;
+	}
+	.formulario{
+		padding: 3rem;
+		margin-left: 12%;
+		width: 13rem;
+		text-align: justify;
+		}
+		.error{
+			font-size: 1rem;
+		}
+	}

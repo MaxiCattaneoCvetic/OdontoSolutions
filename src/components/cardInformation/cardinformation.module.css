@@ -46,3 +46,20 @@
 .bodyInfo.dark h2{
 	color: rgb(48, 122, 73);;
 }
+
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+	.card{
+		width: 10rem;
+	}
+	.h2Info{
+		font-size: 2rem;
+		text-align: center;
+
+	}
+	.cardInfoText{
+		font-size: 0.8rem;
+	}
+
+	}
